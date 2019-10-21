@@ -3,52 +3,90 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Marco Donato, Ph.D.
+title: #Postdoctoral Fellow
+email: mdonato@seas.harvard.edu 
+#phone: Your phone number (optional)
+#website: Your website (eg. https://google.com)(optional)
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-
+twitter_username: mrcdonato
+github_username:  mrc-donato
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: mrcdonato
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+scholar_username: "-h528wwAAAAJ&hl=en&oi=sra"
+researchgate_username: "Marco_Donato"
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: assets/images/bio-photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  I am a Postdoctoral Fellow in the [Architecture, Circuits, and Compilers](http://vlsiarch.eecs.harvard.edu) group at Harvard University working with Prof. Gu-Yeon Wei and David Brooks.
+  
+  My research broadly investigates design methodologies for energy-efficient and reliable hardware systems. 
+  I am currently working on co-design methodologies for building specialized architectures for machine learning applications that leverage dense, fault-prone embedded non-volatile memories.
+  
+  I received my Ph.D. degree in Electrical Sciences and Computer Engineering from Brown University.
+  
+  Before pursuing my Ph.D., I graduated with a B.S. (2008) and a M.Sc. (2010) from Universit&agrave; di Roma La Sapienza
+  
+  You can find my full CV [here](assets/MarcoDonato_cv.pdf)
+
+
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Projects #(Use this to override about projects section title)
+# Project template
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
 # education_title: Education #(Use this to override about education section title)
-
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+# Publications content
+pubs_content: |
+ [1] **M. Donato**, L. Pentecost, D. Brooks, and G.-Y. Wei, “MEMTI: Optimizing on-chip non-volatile storage for visual multi-task inference at the edge”, _IEEE MICRO_, vol. 39, no. 6, Nov./Dec. 2019
+
+ [2] L. Pentecost, **M. Donato**, B. Reagen, U. Gupta, S. Ma, G.-Y. Wei, and D. Brooks, “MaxNVM: Maximizing DNN storage density and inference efficiency with sparse encoding and error mitigation” in Proceedings of the 52th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO52), Oct. 2019
+
+ [3] S. Ma, **M. Donato**, S. K. Lee, D. Brooks, and G.-Y. Wei, “Fully-CMOS multi-level embedded non-volatile memory devices with reliable long-term retention for efficient storage of neural network weights”, *IEEE Electron Device Letters*, vol.40, no.9, Sep. 2019
+
+ [4]	U. Gupta, B. Reagen, L. Pentecost, **M. Donato**, T. Tambe, A. Rush, G.-Y. Wei, D. Brooks, “MASR: A modular accelerator for sparse RNNs”, in Proceedings of the 27th International Conference on Parallel Architectures and Compilation Techniques (PACT), Oct. 2019
+ 
+ [5]	E. Rezaei, **M. Donato**, W. Patterson, A. Zaslavsky, and R. I. Bahar, “Thermal noise-induced error simulation framework for subthreshold CMOS SRAM” in IEEE SOI-3D-Subthreshold Microelectronics Technology Unified Conference (S3S), Oct. 2019
+ 
+ [6]	P. Whatmough, S. K. Lee, **M. Donato**, H. C. Hsueh, S. Xi, U. Gupta, L. Pentecost, G. Ko, D. Brooks, and G.-Y. Wei, “A 16nm 25mm^2 SoC with a 54.5x flexibility-efficiency range from dual-core Arm Cortex-A53, to eFPGA, and cache-coherent accelerators” in IEEE Symposium on VLSI Circuits (VLSIC), Jun. 2019
+ 
+ [7]	**M. Donato**, B. Reagen, L. Pentecost, U. Gupta, D. Brooks, and G.-Y. Wei, “On-chip deep neural network storage with multi-level eNVM” in Proceedings of the 55th Annual Design Automation Conference (DAC), Jun. 2018
+ 
+ [8]	**M. Donato**, R. I. Bahar, W. R. Patterson, and A. Zaslavsky, “A sub-threshold noise transient simulator based on integrated random telegraph and thermal noise modeling” *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol.37, no.3, 2018
+ 
+ [9]	**M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, “A fast simulator for the analysis of sub-threshold thermal noise transients” in Proceedings of the 53rd Annual Design Automation Conference (DAC), Jun. 2016
+ 
+ [10]	X. Han, **M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, “Design of error-resilient logic gates with reinforcement using implications” in Proceedings of the 26th Edition on the Great Lakes Symposium on VLSI (GLSVLSI), May 2016
+ 
+ [11]	**M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, “A simulation framework for analyzing transient effects due to thermal noise in sub-threshold circuits” in Proceedings of the 25th Edition on Great Lakes Symposium on VLSI (GLSVLSI), May 2015
+ 
+ [12]	**M. Donato**, F. Cremona, W. Jin, R. I. Bahar, W. Patterson, A. Zaslavsky, and J. Mundy, “A noise-immune sub-threshold circuit design based on selective use of Schmitt-trigger logic” in Proceedings of the 22th Edition on Great Lakes Symposium on VLSI (GLSVLSI), May 2012
+ 
+ [13]	P. Jannaty, F. C. Sabou, S. T. Le, **M. Donato**, R. I. Bahar, W. Patterson, J. Mundy, and A. Zaslavsky, “Shot-noise-induced failure in nanoscale ﬂip-ﬂops Part I: Numerical framework” *IEEE Transactions on Electron Devices*, vol.59, no.3, 2012
+ 
+ [14]	P. Jannaty, F. C. Sabou, S. T. Le, **M. Donato**, R. I. Bahar, W. Patterson, J. Mundy, and A. Zaslavsky, “Shot-noise-induced failure in nanoscale ﬂip-ﬂops Part II: Failure rates in 10-nm ultimate CMOS” *IEEE Transactions on Electron Devices*, vol.59,  no.3, 2012
+
+
 
 # Footer
 footer_show_references: true
@@ -63,6 +101,20 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-scholar
+
+scholar:
+  #style: assets/bibliography/ieee-with-url.csl
+  #style: acm-sig-proceedings
+  style: ieee
+  locale: en
+  use_raw_bibtex_entry: true
+  source: ./_bibliography
+  bibliography: bibliography
+  sort_by: year
+  order: descending
+  query: "@*"
+
 
 exclude : [
   "Gemfile",

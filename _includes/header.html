@@ -48,6 +48,23 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.scholar_username -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.scholar_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="ai ai-google-scholar" title="Google Scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        
+        {%- if site.researchgate_username -%}
+          <li>
+            <a target="_blank" href="https://www.researchgate.net/profile/{{ site.researchgate_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="ai ai-researchgate" title="ResearchGate link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+
+
         {%- if site.xing_username -%}
           <li>
             <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">

@@ -1,9 +1,10 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
+  name: CHIPKIT
+  link: https://mrc-donato.github.io/CHIPKIT-Tutorial/
+  github: https://github.com/mrc-donato/CHIPKIT-Tutorial
+  #quote: 
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    CHIPKIT provides a comprehensive set of open-source resources for the design and implementation of research tapeouts.
+    The project was presented as part of a [Tutorial](https://www.microarch.org/micro52/program/workshops.html#chipkit) at MICRO52.
+

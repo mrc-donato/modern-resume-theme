@@ -1,9 +1,15 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
+  name: Brown University
+  dates: 2016
+  qualification: Ph.D. in Electrical Sciences and Computer Engineering
+
+- layout: left
+  name: Universit&agrave; di Roma La Sapienza
+  dates: 2010
+  qualification: M.A. in Electrical Engineering 
+
+- layout: left
+  name: Universit&agrave; di Roma La Sapienza
+  dates: 2008
+  qualification: B.A. in Electrical Engineering 
