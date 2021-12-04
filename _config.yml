@@ -2,16 +2,26 @@
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
+# Content configuration version
+version: 2
+
 # Personal info
-name: Marco Donato, Ph.D.
-title: #Postdoctoral Fellow
-email: mdonato@seas.harvard.edu 
-#phone: Your phone number (optional)
-#website: Your website (eg. https://google.com)(optional)
+name: Marco Donato
+title: 
+email: marco.donato@tufts.edu
+# email_title: Email (Email title override)
+phone: 
+# phone_title: Phone (Phone title override)
+website: 
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
 twitter_username: mrcdonato
 github_username:  mrc-donato
+baseurl: /~mdonato
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -21,75 +31,141 @@ linkedin_username: mrcdonato
 #pinterest_username: jekyll
 #youtube_username: jekyll
 #googleplus_username: +jekyll
-scholar_username: "-h528wwAAAAJ&hl=en&oi=sra"
+scholar_username: -h528wwAAAAJ&hl=en&oi=ao
 researchgate_username: "Marco_Donato"
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/bio-photo.jpg
 about_content: | # this will include new lines to allow paragraphs
+ 
+  I am an Assistant Professor of [Electrical and Computer Engineering](https://engineering.tufts.edu/ece/) at Tufts University where I lead the [TECS Lab](https://www.eecs.tufts.edu/~mdonato/lab/). Before joining Tufts, I was a Research Associate in Harvard University's John A. Paulson School of Engineering and Applied Sciences working in the [Architecture, Circuits, and Compilers](http://vlsiarch.eecs.harvard.edu) group.
+ 
+  <p style="text-align: center;"><b>I am looking for Ph.D. students! Please send me an email if you are interested.</b></p>
 
-  I am a Postdoctoral Fellow in the [Architecture, Circuits, and Compilers](http://vlsiarch.eecs.harvard.edu) group at Harvard University working with Prof. Gu-Yeon Wei and David Brooks.
-  
+ 
   My research broadly investigates design methodologies for energy-efficient and reliable hardware systems. 
   I am currently working on co-design methodologies for building specialized architectures for machine learning applications that leverage dense, fault-prone embedded non-volatile memories.
   
   I received my Ph.D. degree in Electrical Sciences and Computer Engineering from Brown University.
   
-  Before pursuing my Ph.D., I graduated with a B.S. (2008) and a M.Sc. (2010) from Universit&agrave; di Roma La Sapienza
-  
-  You can find my full CV [here](assets/MarcoDonato_cv.pdf)
+
+  You can find my full CV [here](lab/pdfs/team/marco-donato-cv.pdf)
 
 
-
-# Projects Section
-projects_title: Projects #(Use this to override about projects section title)
-# Project template
-
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
-
-# Education Section
-# education_title: Education #(Use this to override about education section title)
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-# Publications content
 pubs_content: |
- [1] **M. Donato**, L. Pentecost, D. Brooks, and G.-Y. Wei, “MEMTI: Optimizing on-chip non-volatile storage for visual multi-task inference at the edge”, _IEEE MICRO_, vol. 39, no. 6, Nov./Dec. 2019
+  [1] T. Tambe, C. Hooper, L. Pentecost, T. Jia, E.-Y. Yang, M. Donato, V. Sanh, P. Whatmough, A. Rush, D. Brooks, G.-Y. Wei, [“Edgebert: Sentence-level energy optimizations for latency-aware multi-task NLP inference”](https://dl.acm.org/doi/abs/10.1145/3466752.3480095), in Proceedings of the 54th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)
+   
+  [2] S.K. Lee, P. Whatmough, M. Donato, G. Ko, D. Brooks, G-Y. Wei, [“SMIV: A 16-nm 25-mm² SoC for IoT With Arm Cortex-A53, eFPGA, and Coherent Accelerators”](https://ieeexplore.ieee.org/abstract/document/9566303), IEEE Journal of Solid-State Circuits (JSSC)
+   	
+  [3] L. Pentecost, A. Hankin, M. Donato, M. Hempstead, G-Y. Wei, D. Brooks, [“NVMExplorer: A Framework for Cross-Stack Comparisons of Embedded Non-Volatile Memories”](https://arxiv.org/abs/2109.01188) 
+   
+  [4] M.M. Sharifi, L. Pentecost, R. Rajaei, A. Kazemi, Q. Lou, G-Y. Wei, D. Brooks, K. Ni, X. Hu, M. Niemier, **M. Donato**, [“Application-driven Design Exploration for Dense Ferroelectric Embedded Non-volatile Memories”](https://ieeexplore.ieee.org/document/9502489) in IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED) 2021
+     
+  [5] T. Tambe, E-Y. Yang, G. Ko, Y. Chai, C. Hooper, **M. Donato**, P. Whatmough, A. Rush, D. Brooks, G-Y. Wei, [“A 25mm2 SoC for IoT Devices with 18ms Noise-Robust Speech-to-Text Latency via Bayesian Speech Denoising and Attention-Based Sequence-to-Sequence DNN Speech Recognition in 16nm FinFET”](https://ieeexplore.ieee.org/abstract/document/9366062), in IEEE International Solid-State Circuits Conference (ISSCC), Feb. 2021
+      
+  [6] G. Ko, Y. Chai, **M. Donato**, P. Whatmough, T. Tambe, R. Rutenbar, D. Brooks, G.-Y. Wei, [“A 3mm^2 Programmable Bayesian Inference Accelerator for Unsupervised Machine Perception using Parallel Gibbs Sampling in 16nm”](https://ieeexplore.ieee.org/abstract/document/9162784) in IEEE Symposium on VLSI Circuits (VLSIC), Jun. 2020
+       
+  [7] E. Rezaei, **M. Donato**, W. Patterson, A. Zaslavsky, and R. I. Bahar, [“Fundamental Thermal Limits on Data Retention in Low-Voltage CMOS Latches and SRAM”](https://ieeexplore.ieee.org/document/9098936) *IEEE Transactions on Device and Materials Reliability* **[\[pdf\]](assets/papers/TDMR2020.pdf)** 
+         
+  [8] P. Whatmough. **M. Donato**, G. Ko, D. Brooks, and G.-Y. Wei, [“CHIPKIT: An agile, reusable open-source framework for rapid test chip development”](https://ieeexplore.ieee.org/document/9096507), _IEEE MICRO_ **[\[pdf\]](assets/papers/chipkit.pdf)**
+         
+  [9] **M. Donato**, L. Pentecost, D. Brooks, and G.-Y. Wei, [“MEMTI: Optimizing on-chip non-volatile storage for visual multi-task inference at the edge”](https://ieeexplore.ieee.org/document/8859219), _IEEE MICRO_, vol. 39, no. 6, Nov./Dec. 2019 **[\[pdf\]](assets/papers/MEMTI.pdf)** 
+         
+  [10] L. Pentecost, **M. Donato**, B. Reagen, U. Gupta, S. Ma, G.-Y. Wei, and D. Brooks, [“MaxNVM: Maximizing DNN storage density and inference efficiency with sparse encoding and error mitigation”](https://dl.acm.org/doi/10.1145/3352460.3358258) in Proceedings of the 52th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO52), Oct. 2019 **[\[pdf\]](assets/papers/MaxNVM.pdf)**
+         
+  [11] S. Ma, **M. Donato**, S. K. Lee, D. Brooks, and G.-Y. Wei, [“Fully-CMOS multi-level embedded non-volatile memory devices with reliable long-term retention for efficient storage of neural network weights”](https://ieeexplore.ieee.org/document/8767952), *IEEE Electron Device Letters*, vol.40, no.9, Sep. 2019
+         
+  [12] U. Gupta, B. Reagen, L. Pentecost, **M. Donato**, T. Tambe, A. Rush, G.-Y. Wei, D. Brooks, [“MASR: A modular accelerator for sparse RNNs”](https://ieeexplore.ieee.org/document/8891617), in Proceedings of the 27th International Conference on Parallel Architectures and Compilation Techniques (PACT), Oct. 2019
+          
+  [13] E. Rezaei, **M. Donato**, W. Patterson, A. Zaslavsky, and R. I. Bahar, “Thermal noise-induced error simulation framework for subthreshold CMOS SRAM” in IEEE SOI-3D-Subthreshold Microelectronics Technology Unified Conference (S3S), Oct. 2019
+          
+  [14] P. Whatmough, S. K. Lee, **M. Donato**, H. C. Hsueh, S. Xi, U. Gupta, L. Pentecost, G. Ko, D. Brooks, and G.-Y. Wei, [“A 16nm 25mm^2 SoC with a 54.5x flexibility-efficiency range from dual-core Arm Cortex-A53, to eFPGA, and cache-coherent accelerators”](https://ieeexplore.ieee.org/document/8778002) in IEEE Symposium on VLSI Circuits (VLSIC), Jun. 2019 **[\[pdf\]](assets/papers/smiv.pdf)**
+          
+  [15] **M. Donato**, B. Reagen, L. Pentecost, U. Gupta, D. Brooks, and G.-Y. Wei, [“On-chip deep neural network storage with multi-level eNVM”](https://dl.acm.org/doi/abs/10.1145/3195970.3196083) in Proceedings of the 55th Annual Design Automation Conference (DAC), Jun. 2018 **[\[pdf\]](assets/papers/dac2018-envm.pdf)**
+          
+  [16] **M. Donato**, R. I. Bahar, W. R. Patterson, and A. Zaslavsky, [“A sub-threshold noise transient simulator based on integrated random telegraph and thermal noise modeling”](https://ieeexplore.ieee.org/document/7954053) *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol.37, no.3, 2018
+          
+  [17] **M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, [“A fast simulator for the analysis of sub-threshold thermal noise transients”](https://dl.acm.org/doi/abs/10.1145/2897937.2897960) in Proceedings of the 53rd Annual Design Automation Conference (DAC), Jun. 2016
+          
+  [18] X. Han, **M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, [“Design of error-resilient logic gates with reinforcement using implications”](https://dl.acm.org/doi/abs/10.1145/2902961.2902983) in Proceedings of the 26th Edition on the Great Lakes Symposium on VLSI (GLSVLSI), May 2016
+          
+  [19] **M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, [“A simulation framework for analyzing transient effects due to thermal noise in sub-threshold circuits”](https://dl.acm.org/doi/abs/10.1145/2742060.2742066) in Proceedings of the 25th Edition on Great Lakes Symposium on VLSI (GLSVLSI), May 2015
+          
+  [20] **M. Donato**, F. Cremona, W. Jin, R. I. Bahar, W. Patterson, A. Zaslavsky, and J. Mundy, [“A noise-immune sub-threshold circuit design based on selective use of Schmitt-trigger logic”](https://dl.acm.org/doi/abs/10.1145/2206781.2206792) in Proceedings of the 22th Edition on Great Lakes Symposium on VLSI (GLSVLSI), May 2012
+          
+  [21] P. Jannaty, F. C. Sabou, S. T. Le, **M. Donato**, R. I. Bahar, W. Patterson, J. Mundy, and A. Zaslavsky, [“Shot-noise-induced failure in nanoscale ﬂip-ﬂops Part I: Numerical framework”](https://ieeexplore.ieee.org/document/6122497) *IEEE Transactions on Electron Devices*, vol.59, no.3, 2012
+          
+  [22] P. Jannaty, F. C. Sabou, S. T. Le, **M. Donato**, R. I. Bahar, W. Patterson, J. Mundy, and A. Zaslavsky, [“Shot-noise-induced failure in nanoscale ﬂip-ﬂops Part II: Failure rates in 10-nm ultimate CMOS”](https://ieeexplore.ieee.org/document/6138300) *IEEE Transactions on Electron Devices*, vol.59,  no.3, 2012
 
- [2] L. Pentecost, **M. Donato**, B. Reagen, U. Gupta, S. Ma, G.-Y. Wei, and D. Brooks, “MaxNVM: Maximizing DNN storage density and inference efficiency with sparse encoding and error mitigation” in Proceedings of the 52th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO52), Oct. 2019
 
- [3] S. Ma, **M. Donato**, S. K. Lee, D. Brooks, and G.-Y. Wei, “Fully-CMOS multi-level embedded non-volatile memory devices with reliable long-term retention for efficient storage of neural network weights”, *IEEE Electron Device Letters*, vol.40, no.9, Sep. 2019
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
- [4]	U. Gupta, B. Reagen, L. Pentecost, **M. Donato**, T. Tambe, A. Rush, G.-Y. Wei, D. Brooks, “MASR: A modular accelerator for sparse RNNs”, in Proceedings of the 27th International Conference on Parallel Architectures and Compilation Techniques (PACT), Oct. 2019
- 
- [5]	E. Rezaei, **M. Donato**, W. Patterson, A. Zaslavsky, and R. I. Bahar, “Thermal noise-induced error simulation framework for subthreshold CMOS SRAM” in IEEE SOI-3D-Subthreshold Microelectronics Technology Unified Conference (S3S), Oct. 2019
- 
- [6]	P. Whatmough, S. K. Lee, **M. Donato**, H. C. Hsueh, S. Xi, U. Gupta, L. Pentecost, G. Ko, D. Brooks, and G.-Y. Wei, “A 16nm 25mm^2 SoC with a 54.5x flexibility-efficiency range from dual-core Arm Cortex-A53, to eFPGA, and cache-coherent accelerators” in IEEE Symposium on VLSI Circuits (VLSIC), Jun. 2019
- 
- [7]	**M. Donato**, B. Reagen, L. Pentecost, U. Gupta, D. Brooks, and G.-Y. Wei, “On-chip deep neural network storage with multi-level eNVM” in Proceedings of the 55th Annual Design Automation Conference (DAC), Jun. 2018
- 
- [8]	**M. Donato**, R. I. Bahar, W. R. Patterson, and A. Zaslavsky, “A sub-threshold noise transient simulator based on integrated random telegraph and thermal noise modeling” *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol.37, no.3, 2018
- 
- [9]	**M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, “A fast simulator for the analysis of sub-threshold thermal noise transients” in Proceedings of the 53rd Annual Design Automation Conference (DAC), Jun. 2016
- 
- [10]	X. Han, **M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, “Design of error-resilient logic gates with reinforcement using implications” in Proceedings of the 26th Edition on the Great Lakes Symposium on VLSI (GLSVLSI), May 2016
- 
- [11]	**M. Donato**, R. I. Bahar, W. Patterson, and A. Zaslavsky, “A simulation framework for analyzing transient effects due to thermal noise in sub-threshold circuits” in Proceedings of the 25th Edition on Great Lakes Symposium on VLSI (GLSVLSI), May 2015
- 
- [12]	**M. Donato**, F. Cremona, W. Jin, R. I. Bahar, W. Patterson, A. Zaslavsky, and J. Mundy, “A noise-immune sub-threshold circuit design based on selective use of Schmitt-trigger logic” in Proceedings of the 22th Edition on Great Lakes Symposium on VLSI (GLSVLSI), May 2012
- 
- [13]	P. Jannaty, F. C. Sabou, S. T. Le, **M. Donato**, R. I. Bahar, W. Patterson, J. Mundy, and A. Zaslavsky, “Shot-noise-induced failure in nanoscale ﬂip-ﬂops Part I: Numerical framework” *IEEE Transactions on Electron Devices*, vol.59, no.3, 2012
- 
- [14]	P. Jannaty, F. C. Sabou, S. T. Le, **M. Donato**, R. I. Bahar, W. Patterson, J. Mundy, and A. Zaslavsky, “Shot-noise-induced failure in nanoscale ﬂip-ﬂops Part II: Failure rates in 10-nm ultimate CMOS” *IEEE Transactions on Electron Devices*, vol.59,  no.3, 2012
-
-
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -101,20 +177,6 @@ sass:
 
 plugins:
  - jekyll-seo-tag
- - jekyll-scholar
-
-scholar:
-  #style: assets/bibliography/ieee-with-url.csl
-  #style: acm-sig-proceedings
-  style: ieee
-  locale: en
-  use_raw_bibtex_entry: true
-  source: ./_bibliography
-  bibliography: bibliography
-  sort_by: year
-  order: descending
-  query: "@*"
-
 
 exclude : [
   "Gemfile",

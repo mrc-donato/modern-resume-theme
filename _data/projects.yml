@@ -6,5 +6,6 @@
   #quote: 
   description: | # this will include new lines to allow paragraphs
     CHIPKIT provides a comprehensive set of open-source resources for the design and implementation of research tapeouts.
-    The project was presented as part of a [Tutorial](https://www.microarch.org/micro52/program/workshops.html#chipkit) at MICRO52.
+    The project was presented as part of a Tutorial at [MICRO52](https://www.microarch.org/micro52/program/workshops.html#chipkit) at [ISCA47](https://www.iscaconf.org/isca2020/program/workshops.php#chipkit). The 
+    slides for the tutorial ara available [here](assets/CHIPKIT_Tutorial_ISCA.pdf)
 

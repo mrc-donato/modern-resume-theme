@@ -5,22 +5,23 @@
 # be used to ssh to RH (rechost)
 #######################################################
 
-url := mysite:~/public_html/
+url := tuftsece:~/public_html/
 #cv_dir := /Users/Marco/Documents/cv/
-cv_dir := /Users/Marco/OneDrive\ -\ Harvard\ University/Application\ Material/cv
+cv_dir := ./CV/
 build: clean 
 	@bundle exec jekyll build --trace
 	#@cat page_header.html $(cv_dir)/publist.html page_footer.html > _site/_pages/publications/index.html
 	#@cp $(cv_dir)/publist.css _site/_pages/publications/
+	@cp $(cv_dir)/curriculum_vitae.pdf ./assets/MarcoDonato_CV.pdf 
 publish:
-	cd _site && cp $(cv_dir)/MarcoDonato_cv.pdf . && scp -r * $(url)
+	cd _site; rsync -rv * $(url)
 #biblio: $(cv_dir)/MDonatopubs.bib
 #	cp $(cv_dir)/MDonatopubs.bib _bibliography
 	
 update:
 	bundle update && bundle install
 test: build
-	jekyll serve --watch
+	@bundle exec jekyll serve --watch
 
 	
 
